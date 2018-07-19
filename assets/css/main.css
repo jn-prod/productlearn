@@ -12,9 +12,7 @@
 }
 
 /*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+main color: #12ac8e
 */
 
 /* Reset */
@@ -2722,7 +2720,8 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	.button {
+	.button,
+	.btn {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2732,7 +2731,7 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: #666;
-		border-radius: 6px;
+		border-radius: 36px;
 		border: 0;
 		color: #ffffff;
 		cursor: pointer;
@@ -3289,7 +3288,7 @@
 
 	#cta {
 		background: #12ac8e;
-		color: #f9e6df;
+		color: #FFF;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
@@ -3305,7 +3304,8 @@
 		#cta input[type="submit"],
 		#cta input[type="reset"],
 		#cta input[type="button"],
-		#cta .button {
+		#cta .button,
+		#cta .btn {
 			box-shadow: none;
 			background: #fff;
 			color: #12ac8e;
@@ -3875,3 +3875,29 @@
 			}
 
 	}
+
+.text-primary {
+	color: #12ac8e !important;
+}
+
+.btn-primary {
+	background-color: #12ac8e !important;
+}
+
+a.btn-primary {
+	font-weight: bold;
+}
+
+#founder img {
+	margin: auto;
+	display: block;
+}
+
+.icon > span {
+	font-size: 3em;
+}
+
+.d-icon {
+	margin: auto !important;
+	display: flex;
+}
